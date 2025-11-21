@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+header, footer {
+    flex: 0 0 120px;
+    
+}
+.center{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    
+
+}
+nav, aside{
+    flex: 1;
+    
+
+}
+main{
+    flex: 3;
+    
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.purple{
+    background-color: purple;
+
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: lightseagreen;
+}
+.pink{
+    background-color: pink;
+}
